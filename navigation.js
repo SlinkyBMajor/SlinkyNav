@@ -1,8 +1,14 @@
+
   //Check so that a holder for the navigation exists
   if ( $( '.slinkyNav' ).length ) {
 
     //Load the html into the DOM of index *Just test*
     $( '.slinkyNav' ).load('navBar.html');
+
+    $.get( "navBar.html", function( data ) {
+      $( ".slinkyNav" ).html( data );
+      alert( "Load was performed." );
+    });
 
     //Bind navItems clicks using deligate
     $('.navItem').on("click", function(event){
