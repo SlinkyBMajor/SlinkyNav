@@ -1,11 +1,8 @@
-$(document).ready(function{
-
-
   //Check so that a holder for the navigation exists
   if ( $( '.slinkyNav' ).length ) {
 
     //Load the html into the DOM of index *Just test*
-    $( '.slinkyNav' ).('navBar.html');
+    $( '.slinkyNav' ).load('navBar.html');
 
     //Bind navItems clicks using deligate
     $('.navItem').on("click", function(event){
@@ -21,5 +18,3 @@ $(document).ready(function{
   else {
     alert('No DOM element with the class slinkyNav found.');
   }
-
-});
