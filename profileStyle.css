@@ -1,0 +1,10 @@
+.profilePicture{
+  border-radius: 50%;
+  max-width: 80px;
+  max-height: 80px;
+}
+.displayTitle
+{
+  font-size: 12pt;
+  color: white;
+}
