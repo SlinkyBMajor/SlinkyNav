@@ -1,0 +1,15 @@
+.navGroup{
+  width: 100%;
+}
+#mainNav{
+
+}
+#mainNav tr{
+  border-left: 3px solid #55566D;
+}
+.navItem{
+  
+}
+.navItem-Active{
+  border-left: 3px solid #4ECDC4;
+}
