@@ -1,0 +1,15 @@
+.profilePicture{
+  border-radius: 50%;
+  max-width: 80px;
+  max-height: 80px;
+  opacity: 0.9;
+}
+.profilePicture:hover{
+border: 3px solid #4ECDC4;
+opacity: 1;
+}
+.displayTitle
+{
+  font-size: 12pt;
+  color: white;
+}
