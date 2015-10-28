@@ -5,19 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link href="navStyle.css" rel="stylesheet">
+    <link href="profileStyle.css" rel="stylesheet">
+
     <title>SlinkyNav - Responsive Nav (Hopefully)</title>
 
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
+
+
   </head>
   <body>
-    <div class="slinkyNav"></div>
-    <h1>Index</h1>
+    <div class="slinkyNav">
+
+      <div class="navGroup" id="mainNav">
+      <table>
+        <tbody>
+
+          <tr>
+            <td class="navItem" id="profile">
+              <p class="displayTitle">Slim Shady</p>
+              <img class="profilePicture" src="http://netdna.walyou.netdna-cdn.com/wp-content/uploads//2010/12/facebook-profile-picture-baby-pic-avatar.jpg"/>
+            </td>
+          </tr>
+
+          <tr class="navItem navItem-active">
+            <td>
+              Home
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+      </div>
+
+    </div>
+
+    <div id="mainContent" style="float:left;">
+      <h1>Index</h1>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="navigation.js"></script>
+    <script type="text/javascript" src="profile.js"></script>
 
   </body>
 </html>

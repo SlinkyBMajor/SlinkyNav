@@ -1,15 +1,28 @@
 .navGroup{
   width: 100%;
-}
-#mainNav{
-
+  padding: 0;
 }
 #mainNav tr{
   border-left: 3px solid #55566D;
 }
 .navItem{
-  
+  width: 100%;
+ padding: 0.5em;
+ color: #F9FAF0;
+ margin: 1pt 0 0 1pt;
 }
-.navItem-Active{
+.navItem:hover{
+ color: white;
+}
+.navItem-active{
   border-left: 3px solid #4ECDC4;
+}
+.slinkyNav{
+  width: 200px;
+  min-width: 200px;
+  float: left;
+  background-color: #606784;
+}
+.slinkyNav table{
+  width: 100%;
 }

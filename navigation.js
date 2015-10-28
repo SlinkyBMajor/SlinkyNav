@@ -5,10 +5,12 @@
     //Load the html into the DOM of index *Just test*
     $( '.slinkyNav' ).load('navBar.html');
 
-    $.get( "navBar.html", function( data ) {
-      $( ".slinkyNav" ).html( data );
-      alert( "Load was performed." );
-    });
+    // $.get( "navBar.html", function( data ) {
+    //   $( ".slinkyNav" ).html( data );
+    //   alert( "Load was performed." );
+    // });
+
+    $( '.slinkyNav' ).height($(window).height());
 
     //Bind navItems clicks using deligate
     $('.navItem').on("click", function(event){

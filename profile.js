@@ -1,3 +1,1 @@
-$('.profilePicture').hover(function(){
-
-});
+$('.profilePicture').height('80px').width('80px');
