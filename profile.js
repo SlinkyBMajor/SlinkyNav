@@ -1,0 +1,3 @@
+$('.profilePicture').hover(function(){
+
+});
